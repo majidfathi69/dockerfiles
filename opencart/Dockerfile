@@ -18,7 +18,7 @@ WORKDIR /var/www/html
 
 ENV OPENCART_VER 2.2.0.0
 ENV OPENCART_MD5 a9219f14b3483f867ea48218a0bf215d
-ENV OPENCART_URL http://teleme.ir/opencart.tar.gz
+ENV OPENCART_URL https://github.com/opencart/opencart/archive/${OPENCART_VER}.tar.gz
 ENV OPENCART_FILE opencart.tar.gz
 
 RUN set -xe \
