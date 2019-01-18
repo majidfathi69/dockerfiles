@@ -27,4 +27,4 @@ RUN set -xe \
     && mv config-dist.php config.php \
     && mv admin/config-dist.php admin/config.php \
     && rm ${OPENCART_FILE} \
-&& chown -R www-data:www-data /var/wwwz
+&& chown -R www-data:www-data /var/www
