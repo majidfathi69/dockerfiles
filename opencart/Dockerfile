@@ -14,7 +14,7 @@ RUN set -xe \
     && docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr \
     && docker-php-ext-install gd mcrypt mbstring mysqli zip
 
-WORKDIR /var/www/html
+VOLUME /var/www/html
 
 ENV OPENCART_VER 2.2.0.0
 ENV OPENCART_MD5 a9219f14b3483f867ea48218a0bf215d
